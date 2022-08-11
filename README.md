@@ -6,7 +6,7 @@
 ## This is my repeat project for my college course module - Mobile applications development
 
 ##This application reads an api to display bus times in Galway city
-
+![What this app looks like](screenshot-emulator.PNG)
 <br>
 
 ## 🔧 Technologies & Tools:
