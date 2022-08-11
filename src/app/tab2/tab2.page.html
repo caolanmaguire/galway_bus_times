@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      My saved bus times
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Galway bus times</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-button (click)="Flashlight()">Flashlight</ion-button>
+
+  <h2>GPS : </h2>
+  <ion-button (click)="GPS()">GPS BUTTON</ion-button>
+  <br/>
+  {{lat}},{{long}}
+  <h2>Calendar : </h2>
+  <ion-button (click)="calandar()">Open / Add to your calender</ion-button>
+
+  <hr>
+
+
+  <ion-button (click)="count()">Press me</ion-button>
+  <br/>
+  <p>the number of times the button has been pressed is : {{numberofTime}}</p>
+    <hr/>
+
+    <h3>Saved Journeys</h3>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+  
+    <!--<ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>-->
+  </ion-card>
+
+ 
+
+  <!--<app-explore-container name="Tab 2 page"></app-explore-container>-->
+</ion-content>

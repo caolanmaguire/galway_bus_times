@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Galway bus times
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Galway bus times
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-list>
+  <ion-item *ngFor="let results of FourZeroNineTimeTable">
+    <!-- <h3>"{{results.route_short_name}}"</h3> -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>{{results.route_long_name}}</ion-card-title>
+        <ion-card-subtitle>{{results.route_short_name}} <ion-icon name="compass-outline"></ion-icon><small>Direction : {{results.direction_id}}</small></ion-card-subtitle>
+        <br/>
+        <!-- <ion-button color="tertiary">Save Journey Card</ion-button><br/> -->
+        
+        <!--START ACCORDIAN-->
+        <ion-accordion-group>
+          <ion-accordion value="first">
+            <ion-item slot="header" color="light">
+              <ion-label>Stops</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              <!-- <p>{{results.g_stops}}</p> -->
+              <ol>
+                  <li *ngFor="let g_stops of results.g_stops">{{g_stops.stop_name}}</li>
+              </ol>
+            </div>
+          </ion-accordion>
+        </ion-accordion-group>
+        <!--END ACCORDIAN-->
+      
+      </ion-card-header>
+    </ion-card>
+    <!-- <ion-item *ngFor="let g_stops of results">
+      <h3>"{{g_stops.stop_name}}"</h3>
+    </ion-item> -->
+
+
+  </ion-item>
+</ion-list>
+
+  <!-- <app-explore-container name="Window One"></app-explore-container> -->
+</ion-content>

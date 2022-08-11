@@ -1,0 +1,7 @@
+{
+  "name": "repeat-proj-mobile-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
