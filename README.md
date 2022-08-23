@@ -1,7 +1,9 @@
-<img src="https://komconsultants.com/wp-content/uploads/2015/04/ATU-Logo-wide.jpg" />
+<img src="https://komconsultants.com/wp-content/uploads/2015/04/ATU-Logo-wide.jpg" width="350px"/>
 <br>
 
 # Galway Bus times app <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
+
+Please check the 'issues' tab for ongoing issues and the 'wiki' tab for the project's wiki
 
 This is my repeat project for my college course module - Mobile applications development
 This app pulls down JSON data from a public api ( https://galway-bus.apis.ie/ ) and parses that data to display both each bus journey and each stop by that journey. It is meant to be a real world useful application. On the second page the app always utilizes cordova plugins to offer a torch-toggle functionality aswell as a gps location displayer and (uniquely to my project compared to my fellow college mates) a calender register functionality)
