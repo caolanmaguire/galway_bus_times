@@ -1,4 +1,4 @@
-##WIKI FOR REPO
+## WIKI FOR REPO
 <img src="https://komconsultants.com/wp-content/uploads/2015/04/ATU-Logo-wide.jpg" />
 <br>
 
@@ -7,7 +7,7 @@
 ## This is my repeat project for my college course module - Mobile applications development
 
 
-##WIKI / HOW TO START APPLICATION
+## WIKI / HOW TO START APPLICATION
 * 
 
 
