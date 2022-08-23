@@ -15,7 +15,9 @@ This app pulls down JSON data from a public api ( https://galway-bus.apis.ie/ ) 
 
 
 ##This application reads an api to display bus times in Galway city
-![What this app looks like](screenshot-emulator.PNG)
+<br>
+![What this app looks like](screenshots/screenshot-page-1.PNG)
+![What this app looks like](screenshots/screenshot-page-2.PNG)
 <br>
 
 ## 🔧 Technologies & Tools:
