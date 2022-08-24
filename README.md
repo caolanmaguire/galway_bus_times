@@ -1,6 +1,11 @@
 <img src="https://komconsultants.com/wp-content/uploads/2015/04/ATU-Logo-wide.jpg" width="350px"/>
 <br>
 
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Cordova](https://img.shields.io/badge/Cordova-35434F?style=for-the-badge&logo=apache-cordova&logoColor=E8E8E8)
+![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
+
+
 # Galway Bus times app <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 
 Please check the 'issues' tab for ongoing issues and the 'wiki' tab for the project's wiki
@@ -13,9 +18,3 @@ This app pulls down JSON data from a public api ( https://galway-bus.apis.ie/ ) 
 ![What this app looks like](screenshots/screenshot-page-1.PNG)
 ![What this app looks like](screenshots/screenshot-page-2.PNG)
 <br>
-
-## 🔧 Technologies & Tools:
-
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Cordova](https://img.shields.io/badge/Cordova-35434F?style=for-the-badge&logo=apache-cordova&logoColor=E8E8E8)
-![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
